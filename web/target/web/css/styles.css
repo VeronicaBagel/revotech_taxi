@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Roboto; /* Имя шрифта */
+    src: url("../fonts/Roboto-Regular.ttf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto Bold; /* Имя шрифта */
+    src: url("../fonts/Roboto-Bold.ttf"); /* Путь к файлу со шрифтом */
+}
+body {
+	background-image: url('../bg.jpg');
+	font-family: Roboto;
+	color:#fff;
+	background-size:cover;
+}
+a, a:hover, a:visited{
+	color: white;
+	text-decoration: underline;
+}
+.main-wrapper{
+	background-color: rgba(14, 12, 12, 0.5);
+	width: 100vw;
+  	height: 100vh;
+}
+.wrapper{
+	margin-top:70px;
+}
+.form-group .form-control {
+    border-radius: 2px;
+}
+.reg-btn{
+	width:100%;
+}
+.title{
+	color:#fff;
+	font-family:Roboto Bold;
+	/* font-weight: bolder; */
+    margin-bottom: 16px;
+}
+.functionForm{
+	font-size: 22px;
+}
+.func-btn{
+	width:50%;
+}
+.logout-link{
+	color: #fff;
+	float: right;
+	text-decoration: underline;
+}
+.logout-link:hover{
+	color: #d9edf7;
+}
+.help-block{
+	color: #ffffff;
+}
+.white-color{
+	color: #ffffff;
+}
+.black-font{
+	color:#080808;
+}
+.modal-dialog {
+	width: 300px!important;
+}
+.modal-footer {
+	margin-left: 20px!important;
+	margin-right: 30px!important;
+}
+.modal-btn{
+	width:80px;
+}
+
+
+
+.locale_link{
+	width: 40px;
+	display: inline-block;
+}
+.locale_img{
+	width: 40px;
+}
